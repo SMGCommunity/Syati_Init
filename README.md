@@ -1,1 +1,1 @@
-A Template for making Syati Modules
+The base initilizer for Syati Modules. Required for most (if not all) Syati Modules to work properly.
