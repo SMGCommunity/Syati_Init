@@ -18,9 +18,9 @@ namespace {
         }
     }
 
-#if defined(TWN) || defined(KOR)
+#if defined(SB4W) || defined(SB4K)
     kmBranch(0x804B6A64, init);
-#else
+#elif defined (SB4E) || defined(SB4P) || defined(SB4J)
     kmBranch(0x804B69F4, init);
 #endif
 }
